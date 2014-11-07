@@ -1,0 +1,135 @@
+div {
+  position: relative;
+  width: 100%;
+  height: 800px; }
+
+#mainSection {
+  background-color: #EDE1BE; }
+
+.logo {
+  width: 350px;
+  height: 100px;
+  float: center;
+  padding: 5% 40%; }
+
+.content, .title .subTitle, .bodyText {
+  position: static;
+  display: block;
+  float: left;
+  width: 800px;
+  height: 600px;
+  font-family: "Raleway";
+  padding: 0% 25%; }
+
+.title .subTitle {
+  text-align: center; }
+
+.title {
+  font-weight: 200;
+  font-size: 5em;
+  color: #680B04; }
+
+.subTitle {
+  font-weight: 100;
+  font-size: 2.5em;
+  color: #173F3B; }
+
+.bodyText {
+  font-weight: 300;
+  font-size: 1em;
+  color: #173F3B;
+  text-align: left;
+  letter-spacing: 2px;
+  padding: 0; }
+
+#input {
+  background-color: #7C9977; }
+
+#content2 {
+  position: static;
+  display: block;
+  float: left;
+  width: 800px;
+  height: 400px;
+  font-family: "Raleway";
+  padding: 10% 25%; }
+
+input {
+  width: 600px;
+  height: 40px;
+  padding: 10px;
+  font-family: "Raleway";
+  font-size: 24px;
+  color: #212121; }
+
+.button {
+  width: 800px;
+  height: 100px;
+  clear: both;
+  padding: 5% 0%; }
+
+button {
+  display: block;
+  width: 20%;
+  padding: 2%;
+  background-color: #680B04;
+  font-size: 1em;
+  font-family: "Raleway";
+  color: #680B04;
+  border: 1px solid #680B04;
+  border-radius: 10px;
+  border-bottom: 1px solid #680B04;
+  cursor: pointer; }
+
+a.button {
+  color: #EDE1BE; }
+
+a:hover {
+  text-decoration: none;
+  color: #EDE1BE; }
+
+a:active {
+  text-decoration: none;
+  color: #EDE1BE; }
+
+footer {
+  background-color: #173F3B;
+  width: 100%;
+  height: 50px;
+  vertical-align: middle; }
+
+.footerText {
+  font-family: "Raleway";
+  font-size: 14px;
+  color: #EDE1BE;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px 100px 5px 100px; }
+
+#infographic {
+  width: 100%;
+  height: 100%;
+  background-color: #EDE1BE; }
+
+img {
+  width: 100%; }
+
+/* img:hover {
+	transform: scale(2);
+	transition:  all 0.3s;
+} */
+#return {
+  width: 100%;
+  height: 100px;
+  background-color: #7C9977; }
+
+.returnText {
+  margin: 0px;
+  padding: 2% 30%;
+  font-family: "Raleway";
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  color: #212121; }
+
+/*# sourceMappingURL=style.css.map */

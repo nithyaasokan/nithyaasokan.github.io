@@ -1,0 +1,56 @@
+body {
+	position: static;
+	display: block;
+	background: url("source/bg.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	font-family: 'roboto slab';
+}
+
+#content {
+	position: relative;
+	display: block;
+	width: 600px;
+	margin-top: 15%;
+	margin-left: 30%;
+	margin-bottom: 5%;
+	color: white;
+	text-align: center;
+}
+
+
+#title {
+	font-weight: 100;
+	font-size: 45px;
+	color: white;
+	vertical-align: middle;
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
+
+
+#input {
+	position: relative;
+	display: block;
+	float: left;
+	width: 25%;
+	height: 2em;
+	padding-bottom: 1%;
+	vertical-align: middle;
+	margin-left: 35%;
+	background: snow;
+}
+
+#submit {
+	position: relative;
+	display: block;
+	clear: both;
+	background: url("source/submit.png");
+	background-repeat: no-repeat;
+	height: 5em;
+	margin-left: 44%;
+	vertical-align: middle;
+	text-align: center;
+}
+
+

@@ -1,0 +1,48 @@
+body {
+	position: relative;
+	left: 0;
+  	margin: 0;
+  	overflow: hidden;
+	font-family: 'Raleway';
+  	font-size: 15px;
+  	height: 100%;
+  	background-image: url('source/bg.jpg');
+}
+
+.logo {
+	width: 180px;
+	height: 120px;
+	background-image: url('source/logo-09.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+  	cursor: crosshair;
+  	margin: 1%;
+  	left: 20%;
+}
+
+.menu {
+	float: left;
+  font-family: 'Raleway';
+  top: 60px;  
+  width: 100%;
+  position: fixed;
+  height: 50px;
+  left: 90%;
+}
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.menu li {
+	display: inline;
+	margin: 3%;
+	padding: 3%;
+}
+
+#locationInput {
+   margin : 30%;
+   margin-top: 20%;
+}

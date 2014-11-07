@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title> Web Application </title>
+	<link rel= "stylesheet" type= "text/css" href="main.css">
+	<link href="http://fonts.googleapis.com/css?family=Josefin+Sans|Fugaz+One" rel="stylesheet" type="text/css">
+
+	<style>
+
+		a:link {
+			color: orangered;
+			text-decoration: none;
+		}
+
+		a:visited {
+			color:orangered;
+			text-decoration: none;
+		}
+
+		a:hover {
+			color:turquoise;
+			text-decoration: none;
+		}
+
+		a:active  {
+			color:turquoise;
+			text-decoration: none;
+		}
+
+	</style>
+
+</head>
+
+<body>
+	<div id="headerBar">
+		<p id="title"> Project Web Application </p>
+
+		<div id="navBar">
+			<ul id="navItems">
+				<li> <a href="index.html"> Instagram Color Cloud </a> </li>
+				<li> <a href="twitter.html"> Twitter Word Cloud </a> </li>
+				<li> <a href="zombie.html"> Zombie Survival Route </a> </li>
+			</ul>
+		</div>
+
+	</div>
+
+	<div id="projectTitle">
+		<p> Twitter Word Cloud </p>
+		<hr id="line">
+	</div>
+
+	<div id="projectTags">
+			<ul id="tags">
+				<li> Input : Hashtag / Trending Topic </li>
+				<li> Output : Map of Topic Density </li>
+				<li> Audience : Current Affairs Enthusiasts </li>
+				<li> Data : Twitter, Google Maps </li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="bodyText">
+		<p> People can input a trending topic and the app will pull up data on where this topic is trending the most. The eta will also include the density of the topic in a given geographical area. This data is then visualised as a World Map with glowing dots. Each dot here represents a tweet that carries the hashtag. The density of number of dots in any area on the map will show where the topic is popular and where it is not discussed as deeply.
+
+		<br>
+		The data will be in real time and will display data from a specified time frame only. Another addition could be to visualise past trending topics over different time frames. This would require additional input of a time frame that the user can decide. </p>
+	</div>
+
+	<div id="image">
+		<a id="imageBox"> <img src="source/dataviz.jpg"> </a>
+	</div>
+
+
+</body>
+
+</html>
