@@ -11,10 +11,18 @@
         <div id="title"> Letters to Strangers </div>
 
         <form id="form" action="form.php" method="post">
-            Name: <input type="text" name="first_name"><br>
-            Age: <input type="text" name="last_name"><br>
-            Email: <input type="text" name="email"><br>
-            Your Message:<br><textarea rows="5" name="message" cols="30"></textarea><br>
+            Name: <input type="text" name="Name"><br> <br>
+            
+            Age: <input type="text" name="Age"><br> <br>
+            
+            Email: <input type="text" name="Email"><br> <br>
+            
+            <div class="message"> 
+                Your Letter: <br> <br>
+                <textarea rows="15" name="Message" cols="30"> 
+                </textarea> <br>
+            </div> 
+
             <input type="submit" name="submit" value="Submit">
         </form>
 
