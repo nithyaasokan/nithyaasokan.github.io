@@ -1,0 +1,399 @@
+/* WEBSITE STYLING */
+
+body {
+  position: relative;
+  display: block;
+  margin: 0; 
+}
+
+input {
+  width: 60%;
+  height: 5%;
+  margin: 2% 0%;
+  padding: 2%;
+  font-family: "Raleway";
+  font-size: 1.5em;
+  color: #212121; }
+
+button {
+  font-family: "Raleway";
+  display: block;
+  width: 20%;
+  margin: 2% 0%;
+  padding: 2%;
+  font-size: 1.5vw;
+  letter-spacing: 0.1em;
+  background-color: #680B04;
+  border: 1px solid #680B04;
+  border-radius: 10px;
+  cursor: pointer; }
+
+a {
+  padding: 5% 0%;
+  color: #EDE1BE;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none;
+  color: #FFFFFF; }
+
+footer {
+  display: block;
+  clear: both;
+  background-color: #173F3B;
+  padding: 1%; }
+
+.footerText {
+  font-family: "Raleway";
+  font-size: 1.2vw;
+  color: #FFFFFF;
+  text-align: center; }
+
+
+
+/* HOMEPAGE STYLING */
+
+#section1, #section2 {
+  position: relative;
+  width: 100%;
+  height: 40%;
+  float: left;
+  margin: 0; }
+
+#section1 {
+  background-color: #EDE1BE; }
+
+.logo {
+  position: relative;
+  height: 12em;
+  padding: 5% 10% 2% 10%;
+  background-image: url("source/logo-09.png");
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.content1, .title .subTitle, .bodyText {
+  font-family: "Raleway";
+  padding: 2% 25%; }
+
+.title .subTitle {
+  padding: 2%;
+  text-align: center; }
+
+.title {
+  margin: 3% 0%;
+  font-weight: 400;
+  font-size: 5vw;
+  color: #680B04; }
+
+.subTitle {
+  margin: 5% 0%;
+  font-weight: 300;
+  font-size: 2.4vw;
+  color: #173F3B; }
+
+.bodyText {
+  font-weight: 400;
+  font-size: 17px;
+  color: #173F3B;
+  text-align: left;
+  letter-spacing: 2px;
+  line-height: 2.5vw;
+  padding: 0; }
+
+#section2 {
+  background-color: #7C9977; }
+
+#content2 {
+  font-family: "Raleway";
+  padding: 2% 25%; 
+}
+
+/* making bodytest responsive after break point */
+@media screen and (max-width: 1000px){
+
+    .bodyText{
+      font-size: 1.5vw;
+    }
+}
+
+
+/* INFOGRAPHIC PAGE STYLING */
+
+
+#infographic {
+  position: relative;
+  display: block;
+  float: left;
+  width: 100%;
+  background-color: white; }
+
+#one, #two, #three, #four, #five {
+  display: block;
+  float: left; 
+  width: 50%;
+}
+
+#one {
+  height: 500px;
+  background-color: #7C9977;
+}
+
+#two {
+  height: 380px;
+  background-color: #173F3B;
+}
+
+#three {
+  height: 350px;
+  background-color: #212121;
+}
+
+#four {
+  height: 880px;
+  margin-top: -230px;
+  background: url("source/Infog-06.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+#five {
+  height: 650px;
+  background-color: #680B04
+}
+
+#return {
+  display: inline-block;
+  clear: both;
+  width: 100%;
+  height: 80px;
+  background-color: #7C9977; 
+}
+
+.returnText {
+  margin: 0px;
+  padding: 2% 30%;
+  font-family: "Raleway";
+  font-size: 2vw;
+  text-align: center;
+  text-decoration: none;
+  color: #212121; }
+
+
+/* restyling elements at break point */
+@media screen and (max-width: 1000px) {
+  
+  #one, #two, #three, #four, #five, #return {
+    clear: both;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+#statsTitle1, #statsTitle2, #statsTitle3, #statsTitle4  {
+  margin: 6%;
+  padding: 3%;
+  font-size: 2.5vw;
+  font-family: "Raleway";
+  font-weight: 100;
+  letter-spacing: 0.3vw;
+  text-align: center;
+  color: #EDE1BE;
+  border: .2vw dashed #fff;
+  border-color: #EDE1BE;
+}
+
+#statsTitle1 {
+  width: 12em;
+}
+
+#statsTitle2 {
+  width: 8em;
+}
+
+#statsTitle3 {
+  width: 14em;
+}
+
+#statsTitle4 {
+  width: 10em;
+}
+
+#statsContent {
+  width: 40em;
+  height: 20em;
+  margin: 1%;
+}
+
+/* resizing content of infographic */
+@media screen and (max-width: 1000px) {
+
+  #statsTitle1, #statsTitle2, #statsTitle3, #statsTitle4  {
+  width: 18em;
+  margin: 6% 20%;
+  padding: 3%;
+  font-size: 3vw;
+  font-family: "Raleway";
+  font-weight: 100;
+  letter-spacing: 0.3vw;
+  text-align: center;
+  color: #EDE1BE;
+  border: .2vw dashed #fff;
+  border-color: #EDE1BE;
+}
+  
+  #statsContent {
+    width: 40em;
+    margin: 1% 20%;
+  }
+
+
+}
+
+#a, #b, #c {
+  margin: 2%;
+  padding: 0% 1%;
+  clear: both;
+}
+
+.shelter, .dist, .rating {
+  display: inline-block;
+  margin: 2%;
+  padding: 3% 1%;
+  font-size: 2vw;
+  font-family: "Raleway";
+  font-weight: 400;
+  letter-spacing: 0.1vw;
+  text-align: left;
+  color: #173F3B;
+}
+
+.shelterData, .distData, .ratingData {
+  display: inline-block;
+  margin: 2%;
+  padding: 3% 1%;
+  font-size: 2vw;
+  font-family: "Raleway";
+  font-weight: 400;
+  letter-spacing: 0.1vw;
+  text-align: left;
+  color: #173F3B;
+}
+
+.ratingData {
+  height: .5em;
+  width: 5em;
+  font-size: 40px;
+}
+
+.location, .temp, .nearzombie {
+  display: inline-block;
+  margin: 1% 2%;
+  padding: 0% 1%;
+  font-size: 1.8vw;
+  font-family: "Raleway";
+  font-weight: 100;
+  letter-spacing: 0.1vw;
+  text-align: left;
+  color: #EDE1BE;
+}
+
+.locationData, .tempData, .nearzombieData {
+  display: inline-block;
+  margin: 2%;
+  padding: 0% 1%;
+  font-size: 1.8vw;
+  font-family: "Raleway";
+  font-weight: 100;
+  letter-spacing: 0.1vw;
+  text-align: left;
+  color: #EDE1BE;
+}
+
+
+.countdown, .timeText {
+  float: left;
+  margin: 2%;
+  padding: 0% 5%;
+  font-size: 2vw;
+  font-family: "Raleway";
+  font-weight: 100;
+  letter-spacing: 0.1vw;
+  text-align: left;
+  color: #EDE1BE;
+}
+
+.countdown {
+  font-family: "Jura";
+  font-size: 4.5vw;
+}
+
+.timeText {
+  clear: both;
+  word-spacing: 3.4vw;
+  margin: 0% 2%;
+}
+
+
+.supply, .supplydist, .supplyrating {
+  display: inline-block;
+  margin: 0%;
+  padding: 3% 1%;
+  font-size: 2vw;
+  font-family: "Raleway";
+  font-weight: 100;
+  letter-spacing: 0.1vw;
+  text-align: left;
+  color: #EDE1BE;
+}
+
+.supplyData, .supplydistData, .supplyratingData {
+  display: inline-block;
+  margin-left: 3%;
+  padding: 3% 1%;
+  font-size: 2vw;
+  font-family: "Raleway";
+  font-weight: 100;
+  letter-spacing: 0.1vw;
+  text-align: left;
+  color: #EDE1BE;
+}
+
+.supplyratingData {
+  height: .5em;
+  width: 5em;
+  font-size: 40px;
+}
+
+/* icons in supply store div */
+.supplyArt {
+  float: left;
+  margin: 2%;
+  padding: 3% 1%;
+  width: 30em;
+  height: 10em;
+  background: url("source/supplyArt.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+/* resizing content of infographic */
+@media screen and (max-width: 1000px) {
+
+  .shelter, .dist, .rating,  .shelterData, .distData, .ratingData, .location, .temp, .nearzombie, .locationData, .tempData, .nearzombieData, .supply, .supplydist, .supplyrating, .supplyData, .supplydistData, .supplyratingData{
+  font-size: 2.7vw;
+}
+ .countdown {
+  font-size: 6.5vw;
+ }
+
+ .timeText {
+  font-size: 3.4vw;
+ }
+
+}
+
+/*# sourceMappingURL=style.css.map */
