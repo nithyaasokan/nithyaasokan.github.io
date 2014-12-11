@@ -1,0 +1,200 @@
+$font-family: 'Raleway';
+
+body {
+	position: relative;
+	display: block;
+	margin: 0;
+}
+
+#section1 , #section2 {
+	position: relative;
+	width: 100%;
+	height: 40%;
+	float: left;
+	margin: 0;
+}
+
+#section1 {
+	background-color: #EDE1BE;
+}
+
+.logo {
+	position: relative;
+	height: 12em;
+	padding: 5% 10% 2% 10%;
+	background-image: url('source/logo-09.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.content1 {
+	font-family: $font-family;
+	padding: 2% 25%;
+}
+
+.title .subTitle {
+	@extend .content1;
+	padding: 2%;
+	text-align: center;
+}
+
+.title {
+	margin: 3% 0%;
+	font-weight: 200;
+	font-size: 5vw;
+	color: #680B04;
+
+}
+
+.subTitle {
+	margin: 5% 0%;
+	font-weight: 100;
+	font-size: 2.4vw;
+	color: #173F3B;
+}
+
+.bodyText {
+	@extend .content1;
+	font-weight: 300;
+	font-size: 1.2vw;
+	color: #173F3B;
+	text-align: left;
+	letter-spacing: 2px;
+	line-height: 2.5vw;
+	padding: 0;
+}
+
+#section2 {
+	background-color: #7C9977;
+}
+
+#content2 {
+	font-family: $font-family;
+	padding: 2% 25%;
+}
+
+input {
+	width: 60%;
+	height: 5%;
+	margin: 2% 0%;
+	padding: 2%;
+	font-family: $font-family;
+	font-size: 1.5em;
+	color: #212121;
+}
+
+button {
+	font-family: $font-family;
+	display: block;
+	width: 20%;
+	margin: 2% 0%;
+	padding: 2%;
+	font-size: 1.5vw;
+	letter-spacing: 0.1em;
+	background-color: #680B04;
+	border:1px solid #680B04;
+	border-radius:10px;
+	cursor:pointer;
+}
+
+a {
+	padding: 5% 0%;
+  	color: #EDE1BE;
+  	text-decoration: none;
+}
+
+a:hover {
+  	text-decoration: none;
+  	color: #FFFFFF;
+}
+
+
+footer {
+	display: block;
+	clear: both;
+	background-color: #173F3B;
+	padding: 1%;
+}
+
+.footerText {
+	font-family: $font-family;
+	font-size: 1.2vw;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+#infographic {
+	position: relative;
+	display: block;
+	float: left;
+	width: 100%;
+	background-color: #EDE1BE;
+}
+
+#one , #two , #three , #four , #five{
+	display: block;
+	float: left;
+}
+
+#one {
+	width: 50%;
+	height: 37.8vw;
+	background: url("source/Infog-03.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#two {
+	width: 50%;
+	height: 25vw;
+	background: url("source/Infog-04.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#three {
+	float: left;
+	width: 50%;
+	height: 25vw;
+	background: url("source/Infog-05.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#four {
+	width: 50%;
+	height: 62.5vw;
+	margin-top: -12.5%;
+	background: url("source/Infog-06.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#five {
+	width: 50%;
+	height: 50vw;
+	background: url("source/Infog-07.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#return{
+	position: relative;
+	display: block;
+	clear: both;
+	width: 100%;
+	height: 100px;
+	background-color: #7C9977;
+}
+
+.returnText {
+	margin: 0px;
+	padding: 2% 30%; 
+	font-family: $font-family;
+	font-size: 24px;
+	text-align: center;
+	text-decoration: none;
+	color: #212121;
+}
+
+
